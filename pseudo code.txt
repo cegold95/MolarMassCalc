@@ -1,0 +1,30 @@
+-takes in number of elements
+
+
+-creates arrays of
+ -JLabels ("Element 1:", "Element 1 amount:") (number of elements * 2)
+ -JTextFields (to take in the answers to the Labels) (num elements * 2)
+  -Create an array of Elements(JTextField.getText());
+  -Create an array of ints that is amount of Element
+
+-adds in Labels and TextFields
+-adds in calculate button and JLabel for the answer
+
+-getMolMass();
+-getEleName();
+-sets it to JLabel (answer?)
+
+action listener
+---------------
+if (source == "Calculate")
+{
+	// needs to create the array of elements and ints (see above)
+	// gets the molMass and eleName
+	// sets it to a String that will be the content of the JLabel
+}
+
+
+
+int number of elements
+
+

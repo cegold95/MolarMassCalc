@@ -1,0 +1,17 @@
+enter button solution:
+
+button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent arg0) {
+                DoThisMethod();
+            } 
+        });
+Sorry about that, Like I said, I'm not too familiar with Swing. And here's the one for the key listener
+*yourComponent*.addKeyListener(new KeyAdapter() { 
+            @Override
+            public void keyPressed(KeyEvent e) { 
+                if(e.getKeyCode() == *whatever the keycode is for enter*) { 
+                    DoThisMethod();
+                }
+            }
+        });
